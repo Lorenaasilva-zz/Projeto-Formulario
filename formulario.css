@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #5F9EA0;
+    margin-left: 16%;
+    margin-top: 5rem
+}   
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #5F9EA0;
+    margin-left: 12%;
+    margin-top: 5px;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #E0FFFF;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #008080;
+    margin-left: 36%;
+    margin-top: 5%;
+    justify-content: center;
+}   
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #008080;
+    display: block;
+}
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input [type="text"], .campo input[type="email"], .campo select .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #4F4F4F;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #B0E0E6;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #008080; 
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffff; 
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: relative;
+    margin-top: 31px;
+    top: 65%;
+    left: 28%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+.botao:hover{
+    background: #5F9EA0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block; 
+}
+
+#robo-logo{
+    width: 450px;
+    height: 400px;
+    position: relative;
+    margin-left: 35rem;
+    margin-top: -350px;
+    background: url("https://i.pinimg.com/originals/ab/53/c3/ab53c3258caa5c3c691b4de46cb5ad88.gif");
+    background-repeat:repeat-y
+}
+
+.box{
+    width: 630px;
+    height: 500px;
+    background: #48D1CC; 
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.411);
+    padding: 30px 10px 10px 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px auto;
+    margin-right: 70rem;
+    text-align: 40rem;
+}
